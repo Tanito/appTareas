@@ -1,0 +1,19 @@
+#principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.cuadros{
+    margin-top: 10px;
+    height: 300px;
+    width: 30%;
+    border-style: solid 2px;
+    border: black;
+}
+
+a {
+    background-color: rgb(7, 8, 8);
+    color: red
+  }

@@ -1,0 +1,22 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(61, 79, 187);
+    height: 80px;
+    align-items: center
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+   
+}
+
+.a{
+    margin-left: 30px;
+    font-size: 30px;
+}
+.b{
+    margin-right: 30px;
+    font-size: 20px;
+}
