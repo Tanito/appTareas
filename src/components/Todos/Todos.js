@@ -8,8 +8,8 @@ export function Todos(props) {
     <div>
     <span >{props.status}</span>
  
-    {props.todos.length !=0 && props.todos.map(t => {
-      if(t.status == props.status){
+    {props.todos.length !==0 && props.todos.map(t => {
+      if(t.status === props.status){
         return(
         
             <Link to={`/edit/${t.id}`} key={t.id}>
